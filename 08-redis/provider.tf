@@ -10,7 +10,7 @@ terraform {
 terraform {
   backend "s3" {
     bucket = "roboshop-remote-state-bucket-new"
-    key = "catalogue"
+    key = "redis"
     region = "us-east-1"
     dynamodb_table = "roboshop-lock"
     
