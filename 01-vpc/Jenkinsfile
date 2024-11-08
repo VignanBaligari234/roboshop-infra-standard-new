@@ -9,7 +9,7 @@ pipeline {
                 cd 01-vpc
                 ls -ltr
                 pwd
-                terraform init"
+                terraform init
                 '''
             }
         }
@@ -19,7 +19,7 @@ pipeline {
                 cd 01-vpc
                 ls -ltr
                 pwd
-                terraform plan"
+                terraform plan
                 '''
             }
         }
