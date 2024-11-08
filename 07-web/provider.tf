@@ -12,7 +12,7 @@ terraform {
     bucket = "roboshop-remote-state-bucket-new"
     key = "web"
     region = "us-east-1"
-    dynamodb_table = "roboshop-lock"
+    dynamodb_table = "roboshop-lock-1"
     
   }
 }
